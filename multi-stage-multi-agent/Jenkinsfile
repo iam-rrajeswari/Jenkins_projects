@@ -19,10 +19,10 @@ pipeline {
     }
     stage('DataBase') {
       agent {
-        docker { image 'mysql' }
+        docker { image 'mysql:latest' }
       }
       steps {
-        sh 'node --version'
+        sh 'mysql--version'
       }
     }
   }
