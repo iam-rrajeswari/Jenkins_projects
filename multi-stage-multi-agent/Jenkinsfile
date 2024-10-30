@@ -22,7 +22,7 @@ pipeline {
         docker { image 'mysql:latest' }
       }
       steps {
-        sh 'mysql--version'
+        sh 'mysql --version'
       }
     }
   }
