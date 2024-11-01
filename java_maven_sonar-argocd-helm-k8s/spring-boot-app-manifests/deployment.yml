@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: spring-boot-app
+        
     spec:
       containers:
       - name: spring-boot-app
